@@ -25,16 +25,15 @@ Este proyecto contiene un programa en **Flex** que analiza números reales y com
 
 ## Salida esperada
 
--Acepto: 3.5
--Acepto: 2i
--Acepto: 4
--Acepto: 5j
--Acepto: 7
--Acepto: 2.0I
--Acepto: 3.1J
--No acepto: a
--No acepto: b
--No acepto: c
+- Acepto: 3.5
+- Acepto: 2i
+- Acepto: 4
+- Acepto: 5j
+- Acepto: 7
+- Acepto: 2.0I
+- Acepto: 3.1J
+- No acepto: a
+- No acepto: b
+- No acepto: c
 
-...
 
