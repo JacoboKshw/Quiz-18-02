@@ -14,19 +14,27 @@ Este proyecto contiene un programa en **Flex** que analiza números reales y com
 
 ## Compilación y ejecución
 
-flex numeros.l
-cc lex.yy.c -o a.out -lfl
-./a.out < entrada.txt
+- flex numeros.l
+
+- cc lex.yy.c -o a.out -lfl
+
+- ./a.out < entrada.txt
 
 ---
 
 
 ## Salida esperada
 
-Acepto: 3
-Acepto: 4i
-Acepto: 2.5J
-Acepto: 7
-No acepto: k
+-Acepto: 3.5
+-Acepto: 2i
+-Acepto: 4
+-Acepto: 5j
+-Acepto: 7
+-Acepto: 2.0I
+-Acepto: 3.1J
+-No acepto: a
+-No acepto: b
+-No acepto: c
+
 ...
 
